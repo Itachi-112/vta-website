@@ -1,0 +1,96 @@
+/* General font and background for the section */
+.success-section {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  display: flex;
+  justify-content: center; /* Center the content */
+  max-width: 75vw; /* Reduced max-width as there's no image */
+  margin: 2rem auto;
+  padding: 3rem 2rem;
+  background-color: #f2f4f7; /* Light grey background */
+  overflow: hidden;
+}
+
+/* Content: Text and Stats */
+.success-content {
+  width: 100%; /* Take full width of the container */
+}
+
+.success-content h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #212529;
+  line-height: 1.7;
+  margin-bottom: 1.6rem;
+  text-align: center; /* Center the heading */
+}
+
+.success-subtitle {
+  font-size: 1rem;
+  color: #6c757d;
+  margin-bottom: 2rem;
+  max-width: 600px; /* Allow subtitle to be a bit wider */
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center; /* Center the subtitle */
+}
+
+/* The white box with the 2x2 grid */
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  background-color: #ffffff;
+  padding: 1rem;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+}
+
+.stat-item {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+/* Circular icon styles */
+.stat-icon-wrapper {
+  flex-shrink: 0;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.stat-icon-wrapper span {
+  font-size: 3rem; /* Icon size */
+  line-height: 1;
+}
+
+/* Text next to the icon (number and label) */
+.stat-text h3 {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #191a1b;
+  margin: 0;
+  line-height: 1;
+}
+
+.stat-text p {
+  font-size: 1.2rem;
+  color: #2b0314;
+  margin: 0.85rem 0 0 0;
+}
+
+/* Responsive (Mobile) */
+@media (max-width: 600px) {
+  .stats-grid {
+    grid-template-columns: 1fr; /* Stacks stats on small screens */
+    padding: 1.2rem;
+    gap: 1.2rem;
+  }
+
+  .success-content h2 {
+    font-size: 1.45rem;
+  }
+}
