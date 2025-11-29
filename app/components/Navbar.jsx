@@ -128,11 +128,11 @@ const Navbar = () => {
 
             {/* --- LOGO SECTION MODIFIED HERE --- */}
             <div className="shrink-0 ml-4 lg:ml-0 flex items-center gap-4">
-             
+
               {/* 2VTA SVG Logo beside the text logo */}
               <Link href="/" className=''>
-                <img 
-                  src="/main-vta.svg" 
+                <img
+                  src="/main-vta.svg"
                   alt="VTA Global Logo"
                   className="h-24 w-40 sm:h-28 sm:w-70 object-contain pb-4 ml-5 p-2"
                 />
@@ -224,22 +224,22 @@ const Navbar = () => {
               </Link>
 
               {/* Phone icon at the end */}
-              <Link 
-                href="tel:+919911928612" 
+              <Link
+                href="tel:+919911928612"
                 className="flex items-center justify-center ml-7 p-2 text-(--color-text-main) hover:text-blue-600 transition-colors rounded-full hover:bg-blue-50"
                 aria-label="Call us"
               >
-                <svg 
-                  className="w-9 h-9" 
-                  fill="none" 
-                  stroke="currentColor" 
-                  viewBox="0 0 24 24" 
+                <svg
+                  className="w-9 h-9"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
                   xmlns="http://www.w3.org/2000/svg"
                 >
-                  <path 
-                    strokeLinecap="round" 
-                    strokeLinejoin="round" 
-                    strokeWidth={2} 
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
                     d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
                   />
                 </svg>
@@ -248,12 +248,12 @@ const Navbar = () => {
             </div>
 
             {/* Mobile Menu Button (Hamburger) */}
-            <div className="md:hidden">
+            <div className="md:hidden sticky top-0">
               <button
                 ref={hamburgerRef}
                 onClick={() => setMobileOpen(true)}
                 aria-label="Open menu"
-                className="p-2 rounded-md bg-white/80 backdrop-blur-sm shadow-sm"
+                className="p-2 rounded-md sticky top-0 bg-white/80 backdrop-blur-sm shadow-sm"
               >
                 <svg className="w-6 h-6 text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
@@ -274,16 +274,16 @@ const Navbar = () => {
                   >
                     <div className="flex items-center justify-between mb-6">
                       <div className="shrink-0 ml-4 lg:ml-0 flex items-center gap-4">
-             
-              {/* 2VTA SVG Logo beside the text logo */}
-              <Link href="/" className=''>
-                <img 
-                  src="/main-vta.svg" 
-                  alt="VTA Global Logo"
-                  className="h-20 w-40 sm:h-28 sm:w-70 object-contain "
-                />
-              </Link>
-            </div>
+
+                        {/* 2VTA SVG Logo beside the text logo */}
+                        <Link href="/" className=''>
+                          <img
+                            src="/main-vta.svg"
+                            alt="VTA Global Logo"
+                            className="h-20 w-40 sm:h-28 sm:w-60 object-contain "
+                          />
+                        </Link>
+                      </div>
                       <button onClick={() => setMobileOpen(false)} aria-label="Close menu" className="p-2 rounded-md">
                         <svg className="w-6 h-6 text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
@@ -294,7 +294,7 @@ const Navbar = () => {
                     <nav className="space-y-4">
                       <Link href="/" onClick={() => setMobileOpen(false)} className="block text-lg font-semibold text-gray-800">Home</Link>
                       <Link href="/about" onClick={() => setMobileOpen(false)} className="block text-lg font-semibold text-gray-800">About Us</Link>
-
+                      <Link href="/contact" onClick={() => setMobileOpen(false)} className="block text-lg font-semibold text-gray-800">Contact Us</Link>
                       <div>
                         <div className="font-semibold text-gray-800 mb-2">Services</div>
                         <div className="space-y-1">
@@ -304,7 +304,7 @@ const Navbar = () => {
                         </div>
                       </div>
 
-                      <Link href="/contact" onClick={() => setMobileOpen(false)} className="block text-lg font-semibold text-gray-800">Contact Us</Link>
+
                     </nav>
                   </motion.div>
                 )}

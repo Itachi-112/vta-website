@@ -39,7 +39,7 @@ export default function AttestationVisaServices() {
     <section  className="bg-gray-50 py-16 px-6">
       <div className="mx-auto max-w-7xl text-center">
         {/* Main Heading */}
-        <h1 className="mb-4 text-4xl font-extrabold font-sans text-[#56b4e9] md:text-7xl">
+        <h1 className="mb-4 text-4xl font-extrabold font-sans text-[#56b4e9] md:text-6xl">
           <span className='text-[#2F486B]'>C</span>ertified MEA Attestation and Visa Services
         </h1>
 

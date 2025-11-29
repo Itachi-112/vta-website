@@ -46,7 +46,7 @@ export default function ServicesProvided() {
     <section className="bg-gray-50 py-16 px-6">
       <div className="mx-auto max-w-7xl text-center">
         {/* Main Heading */}
-        <h2 className="mb-8  mt-10 text-7xl font-extrabold font-sans text-[#56b4e9] ">
+        <h2 className="mb-8  mt-10 text-4xl font-extrabold font-sans md:text-6xl text-[#56b4e9] ">
           <span className='text-[#2F486B]'>S</span>ervices we provide..
            <div className='flex pt-3 pb-10 justify-center'>
         <div className="mx-0 mb-0 h-1.5 w-10 bg-[#56b4e9] rounded-2xl" ></div>

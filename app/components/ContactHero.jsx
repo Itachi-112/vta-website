@@ -16,6 +16,7 @@ const ContactHero = () => {
         fill
         sizes="100vw"
         quality={100}
+        priority={true}
         // Apply strong brightness filter and opacity to ensure text stands out
         className="brightness-50 opacity-90 object-cover"
       />

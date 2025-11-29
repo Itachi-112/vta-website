@@ -95,7 +95,7 @@ const Footer = () => {
               </div>
 
               {/* Services Section */}
-              <div className="space-y-6">
+              <nav aria-label="Our Services" className="space-y-6">
                 <h3 className="text-xl font-bold text-[#2f486b]">Our Services</h3>
                 <ul className="space-y-3">
                   {services.map((service) => {
@@ -113,7 +113,7 @@ const Footer = () => {
                     );
                   })}
                 </ul>
-              </div>
+              </nav>
 
               {/* Contact Info Section */}
               <div className="space-y-6 sm:col-span-2 lg:col-span-1">

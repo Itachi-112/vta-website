@@ -38,18 +38,18 @@ const ContactPageContent = () => {
                 <div className="bg-white font-sans rounded-xl shadow-xl overflow-hidden grid grid-cols-1 lg:grid-cols-2">
 
                     {/* LEFT COLUMN: Contact Information */}
-                    <div className="p-8 sm:p-12 space-y-8">
+                    <div className="p-8 sm:p-12 space-y-4">
                         <div className="space-y-2">
                             <h2 className="text-3xl font-extrabold tracking-tight text-gray-900">
                                 Contact Us
                             </h2>
                             <p className="text-lg text-gray-600">
-                                Have questions about studying abroad? Need guidance on university applications, visas, or scholarships? Our expert consultants are here to help!
+                                Have questions about staying abroad? Need guidance on MEA Attestation, Visas, or Document Translation services? Our expert consultants are here to help!
                             </p>
                         </div>
 
                         {/* Contact Details Grid */}
-                        <div className="space-y-6 text-gray-700">
+                        <div className="space-y-4 text-gray-700">
 
                             {/* Office Address */}
                             <div className="space-y-2">

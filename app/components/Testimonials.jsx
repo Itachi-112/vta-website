@@ -99,7 +99,7 @@ export default function Testimonials() {
     <section className="bg-gray-50 to-gray-50 py-20 px-4">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="mb-4 text-4xl font-extrabold text-[#56b4e9] md:text-7xl font-sans">
+          <h2 className="mb-4 text-4xl font-extrabold text-[#56b4e9] md:text-6xl font-sans">
             <span className='text-[#2F486B]'>C</span>lient Testimonials..
           </h2>
           

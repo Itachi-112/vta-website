@@ -45,7 +45,7 @@ export default function ProcedureSection() {
     <section className="bg-gray-50 py-16 px-6">
       <div className="mx-auto max-w-7xl text-center">
         {/* Main Heading */}
-        <h2 className="mb-4 text-4xl font-extrabold text-[#56b4e9] md:text-7xl font-sans">
+        <h2 className="mb-4 text-4xl font-extrabold text-[#56b4e9] md:text-6xl font-sans">
           <span className='text-[#2F486B]'>N</span>ow! Tell me about the procedure.
         </h2>
 

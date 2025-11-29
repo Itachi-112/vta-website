@@ -1,11 +1,17 @@
 import React from 'react'
-import SuccessStats from '../components/SuccessStats'
 import Image from 'next/image' 
 import Link from 'next/link'
+import AboutHero from '../components/AboutHero'
+import ChooseUs from '../components/ChooseUs'
 
 const page = () => {
   return (
     <>
+
+
+    
+
+    
      <section className="relative h-[400px] sm:h-[500px] lg:h-[600px] overflow-hidden">
         
         {/* Background Image using Next.js Image component */}
@@ -15,6 +21,7 @@ const page = () => {
           fill
           sizes="100vw"
           quality={100}
+          priority={true}
           className="brightness-50 opacity-90 object-cover"
         />
 
@@ -30,7 +37,7 @@ const page = () => {
               <span className="block text-[#54b6e9] drop-shadow-lg">VTA Global</span>
             </h1>
            <p className="text-lg sm:text-xl text-gray-200 drop-shadow-md max-w-md">
-              At VTA Global, your dreams become reality..
+              At VTA Global, we make your dream vacation happen..
             </p>
 
             
@@ -52,6 +59,7 @@ const page = () => {
         </div>
       </section>
 
+
       <section className="py-16 sm:py-24 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12 lg:mb-16">
@@ -71,7 +79,7 @@ const page = () => {
               </p>
 
               <p>
-                Our services cover <span className="text-[#54b6e9] font-semibold">visa processing</span>, <span className="text-[#54b6e9] font-semibold">travel consulting</span>, document attestation by <span className="text-[#54b6e9] font-semibold">MEA</span>, <span className="text-[#54b6e9] font-semibold">embassy legalization</span>, <span className="text-[#54b6e9] font-semibold">MOFA attestation</span>, <span className="text-[#54b6e9] font-semibold">HRD and university verification</span>, <span className="text-[#54b6e9] font-semibold">apostille services</span>, and more—ensuring that every step of your international journey is simple, secure, and stress-free.
+                Our services cover <span className="text-[#54b6e9] font-semibold">visa processing</span>, <span className="text-[#54b6e9] font-semibold">travel consulting</span>, document attestation by <span className="text-[#54b6e9] font-semibold">MEA</span>, <span className="text-[#54b6e9] font-semibold">Embassy legalization</span>, <span className="text-[#54b6e9] font-semibold">MOFA attestation</span>, <span className="text-[#54b6e9] font-semibold">HRD and university verification</span>, <span className="text-[#54b6e9] font-semibold">apostille services</span>, and more—ensuring that every step of your international journey is simple, secure, and stress-free.
               </p>
 
               <p>
@@ -85,7 +93,8 @@ const page = () => {
           </div>
 
         </div>
-        <SuccessStats />
+        <AboutHero/>
+        <ChooseUs/>
       </section>
       
     </>

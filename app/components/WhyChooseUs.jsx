@@ -9,7 +9,7 @@ export default function WhyChooseUs() {
         {/* Title */}
         <h2 
         
-        className="text-[#56b4e9] text-center text-7xl font-extrabold mb-10">
+        className="text-[#56b4e9] text-center text-4xl font-extrabold md:text-6xl mb-10" >
           <span className='text-[#2F486B]'>W</span>hy Choose Attestation & Visa Services with VTA Global?
         </h2>
 

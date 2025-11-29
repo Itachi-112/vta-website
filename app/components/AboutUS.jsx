@@ -41,7 +41,7 @@ export default function AboutUs() {
             {/* Column 2: Text Content - MODIFIED for vertical centering */}
             <div className="flex flex-col justify-center text-center lg:text-left lg:col-span-1">
               {/* Main Heading */}
-              <h2 className="text-5xl font-extrabold tracking-tight text-[#2F486B] sm:text-4xl">
+              <h2 className="text-4xl font-extrabold tracking-tight text-[#2F486B] sm:text-4xl">
                 Document Attestation and Visa Services at <span className='text-blue-400'>VTA</span>.
               </h2>
 

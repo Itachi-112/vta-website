@@ -31,6 +31,7 @@ const TravelInsurancePage = () => {
           sizes="100vw"
           quality={100}
           className="brightness-50 opacity-90 object-cover"
+          priority={true}
         />
 
         {/* Content Container */}
